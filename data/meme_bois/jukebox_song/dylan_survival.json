@@ -1,0 +1,8 @@
+{
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.dylan_survival"
+    },
+    "description": "Survival - Eminem ft. Bing Bong",
+    "length_in_seconds": 120.0,
+    "comparator_output": 15
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:elytra",
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "provolone:netherite_elytra_armor",
+          "type": "minecraft:armor",
+          "slot": "chest",
+          "operation": "add_value",
+          "amount": 8
+        },
+        {
+          "id": "provolone:netherite_elytra_armor_toughness",
+          "type": "minecraft:armor_toughness",
+          "slot": "chest",
+          "operation": "add_value",
+          "amount": 3
+        },
+        {
+          "id": "provolone:netherite_elytra_knockback_resistance",
+          "type": "minecraft:knockback_resistance",
+          "slot": "chest",
+          "operation": "add_value",
+          "amount": 0.1
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Wings Imbued With the Power of Netherite",
+          "color": "red"
+        }
+      ],
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
