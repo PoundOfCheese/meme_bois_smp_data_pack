@@ -1,0 +1,12 @@
+{
+    "asset_id": "meme_bois:entity/pig/police_pig",
+    "spawn_conditions": [
+        {
+            "condition": {
+                "type": "minecraft:biome",
+                "biomes": "minecraft:swamp"
+            },
+            "priority": 1
+        }
+    ]
+}

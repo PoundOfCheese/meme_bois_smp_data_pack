@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:painting",
+  "result": {
+    "components": {
+      "minecraft:painting/variant": "meme_bois:datboi"
+    },
+    "count": 1,
+    "id": "minecraft:painting"
+  }
+}
